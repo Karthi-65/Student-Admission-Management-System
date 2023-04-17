@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Admission Form</title>
+<style type="text/css">
+*{
+margin: 0;
+padding: 0;
+}
+body{
+background-image:
+url(http://images.catchnews.com/upload/2018/06/26/Schooling-Visa.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.adform{
+width: 800px;
+background-color: rgb(0,0,0,0.6);
+margin: auto;
+color: #FFFFFF;
+padding: 10px 0px 10px 0px;
+text-align: center;
+border-radius: 17px 17px 0px 0px;
+}
+.main{
+background-color: rgb(0, 0, 0,0.5);
+width: 800px;
+margin: auto;
+height: 900px;
+}
+.form{
+padding: 10px;
+size: ;
+}
+#name{
+width: 100%;
+height: 100px;
+}
+.name{
+margin-left: 25px;
+margin-top: 20px;
+width: 125px;
+color: white;
+font-size: 20px;
+font-weight: 750;
+}
+.Name{
+margin-left: 25px;
+margin-top: 20px;
+width: 125px;
+color: white;
+font-size: 20px;
+font-weight: 750;
+}
+.fullname{
+position: relative;
+left: 200px;
+top: -10px;
+line-height: 40px;
+border-radius: 6px;
+padding: 0 22px;
+font-size: 18px;
+width: 400px;
+}
+.firstlabel{
+position: relative;
+color: yellow;
+font-size: 16px;
+left: 203px;
+top: -12px;
+}
+.dob{
+position: relative;
+left: 200px;
+top: -37px;
+line-height: 40px;
+width: 300px;
+border-radius: 6px;
+padding: 0 22px;
+}
+.parentname{
+position: relative;
+left: 200px;
+top: -37px;
+line-height: 40px;
+width: 300px;
+border-radius: 6px;
+padding: 0 22px;
+}
+.email{
+position: relative;
+left: 200px;
+top: -37px;
+line-height: 40px;
+width: 300px;
+border-radius: 6px;
+padding: 0 22px;
+}
+.number{
+position: relative;
+left: 200px;
+top: -37px;
+line-height: 40px;
+width: 300px;
+border-radius: 6px;
+padding: 0 22px;
+}
+.address{
+position: relative;
+left: 200px;
+top: -30px;
+line-height: 40px;
+width: 300px;
+border-radius: 6px;
+padding: 0 22px;
+}
+.mark{
+position: relative;
+left: 200px;
+top: -30px;
+line-height: 40px;
+width: 300px;
+border-radius: 6px;
+padding: 0 22px;
+}
+.tm{
+position: relative;
+color: yellow;
+text-transform: capitalize;
+font-size: 16px;
+left: 203px;
+top: -30px;
+}
+.option{
+position: relative;
+left: 202px;
+top: -19px;
+line-height: 40px;
+width: 300px;
+border-radius: 4px;
+padding: 0 22px;
+font-size: 18px;
+color: #555;
+outline: none;
+overflow: hidden;
+}
+.option1{
+position: relative;
+left: 202px;
+top: -30px;
+line-height: 40px;
+width: 300px;
+border-radius: 4px;
+padding: 0 22px;
+font-size: 18px;
+color: #555;
+outline: none;
+overflow: hidden;
+}
+.option option{
+font-size: 20px;
+}
+.button{
+position: relative;
+left: -170px;
+top: 70px;
+line-height: 40px;
+width: 450px;
+border-radius: 5px;
+padding: 0 22px;
+color: red;
+background-color: #F3D708 ;
+font-size: 25px;
+}
+</style>
+</head>
+<body>
+<div class="adform"><h1>Admission Form</h1></div>
+<div class="main">
+<form method="POST" action="index.php">
+<div id="name">
+<h2 class="Name" >Student Name</h2>
+<input class="fullname" type="text" name="sname" required><br>
+<label class="firstlabel">*Full Name</label>
+<h2 class="name">DOB</h2>
+<input class="dob" type="date" name="dob" required>
+<h2 class="name">Parent Name</h2>
+<input class="parentname" type="text" name="pname" required>
+<h2 class="name">Email</h2>
+<input class="email" type="text" name="email" required>
+<h2 class="name" >Phone</h2>
+<input class="number" type="text" name="phone" required>
+<h2><label for="gender" class="name" >Gender</label></h2>
+<select class="option" name="gender" required>
+<option disabled="disabled" selected>----Select Gender----</option>
+<option>MALE</option>
+<option>FEMALE</option>
+<option>OTHER</option></select>
+<h2 class="name">Address</h2>
+<input type="text" name="address" class="address" required>
+<h2 class="name" for="mark">12th Mark</h2>
+<input class="mark" type="text" name="mark" required>
+<h4>
+<label class="tm">*(Total Mark of 600)</label></h4>
+<div><h3 class="name" >Course</h3>
+<select class="option1" name="course" required>
+<option disabled="disabled" selected>--Choose Course--</option>
+<option>B.E CSE</option>
+<option>B.E ECE</option>
+<option>B.E MECH</option>
+<option>B.E CIVIL</option>
+<option>B.E EEE</option>
+<option>M.E CSE</option>
+<option>M.E MECH</option>
+<option>M.E CIVIL</option>
+<option>B.TECH IT</option>
+</select>
+<input class="button" type="submit" name="Register" value="Register" >
+</form>
+</body>
+</html>

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MD</title>
+<style type="text/css">
+body
+{
+padding: 0;
+margin: 0;
+font-family: sans-serif;
+overflow: hidden;
+}
+.banner1,banner2,banner3,banner4,banner5,banner6
+{
+height: 100vh;
+width: 100%;
+position: absolute;
+left: 0;
+top: 0;
+}
+img
+{
+width:120%;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+animation: zoom-out 3s linear infinite;
+}
+@keyframes zoom-out
+{
+100%
+{
+width:100% ;
+}
+}
+.text-box
+{
+width: 600px;
+position: absolute;
+top: 200px;
+left: 400px;
+color: yellow;
+animation: textup 12s linear infinite;
+transform: translateY(100px);
+}
+.text-box h1
+{
+margin-bottom: 20px;
+}
+.text-box p
+{
+font-size: 18px;
+line-height: 22px;
+margin-top: 40px;
+}
+.text-box span
+{
+background: red;
+height: 1px;
+width: 100px;
+position: absolute;
+left: 0;
+}
+.banner1
+{
+animation: slide1 12s linear infinite;
+}
+.banner2
+{
+animation: slide2 12s linear infinite;
+}
+.banner3
+{
+animation: slide3 12s linear infinite;
+}
+.banner4
+{
+animation: slide4 12s linear infinite;
+}
+@keyframes slide1
+{
+0%
+{
+visibility: visible;
+}
+25%
+{
+visibility: hidden;
+}
+50%
+{
+visibility: hidden;
+}
+75%
+{
+visibility: hidden;
+}
+100%
+{
+visibility: visible;
+}
+}
+@keyframes slide2
+{
+0%
+{
+visibility: hidden;
+}
+25%
+{
+visibility: hidden;
+}
+50%
+{
+visibility: visible;
+}
+75%
+{
+visibility: hidden;
+}
+100%
+{
+visibility: hidden;
+}
+}
+@keyframes slide3
+{
+0%
+{
+visibility: hidden;
+}
+25%
+{
+visibility: hidden;
+}
+50%
+{
+visibility: hidden;
+}
+75%
+{
+visibility: visible;
+}
+100%
+{
+visibility: hidden;
+}
+}
+@keyframes slide4
+{
+0%
+{
+visibility: hidden;
+}
+25%
+{
+visibility: hidden;
+}
+50%
+{
+visibility: hidden;
+}
+75%
+{
+visibility: hidden;
+}
+100%
+{
+visibility: visible;
+}
+}
+@keyframes textup
+{
+10%
+{
+transform: translateY(0px);
+}
+100%
+{
+transform: translateY(0px);
+}
+}
+.text-box1
+{
+animation-delay: 0s;
+}
+.text-box2
+{
+animation-delay: 3s;
+}
+.text-box3
+{
+animation-delay: 6s;
+}
+.text-box4
+{
+animation-delay: 9s;
+}
+</style>
+</head>
+<body>
+<div class="banner1">
+<img
+src="https://www.accurate.in/blog/wp-content/uploads/2021/09/top-engineeringcollege-1024x563.png">
+<div class="text-box text-box1">
+<h1>CSE </h1>
+<span></span>
+<p>
+There is a huge scope of placements in CSE. In fact, it has taken the top position
+in placements as compared to the other fields. Programming involves a lot of
+innovations and students who love programming and designing or have a
+creative mind with a good understanding of coding can get into CSE and fit in
+very easily.</p>
+</div>
+<div class="banner2">
+<img
+src="https://www.medicaps.ac.in/upload/medicapsuniv/page/1562325269.jpg">
+<div class="text-box text-box2">
+<h1>ECE </h1>
+<span></span>
+<p>Electronics and Communications Engineering (ECE) involves
+researching, designing, developing, and testing electronic equipment used in
+various systems. Electronics and Communications engineers also conceptualize
+and oversee the manufacturing of communications and broadcast systems. </p>
+</div>
+<div class="banner3">
+<img
+src="https://www.build-review.com/wp-content/uploads/2021/02/civil-engineerin
+g-company.jpg">
+<div class="text-box text-box3">
+<h1>CIVIL </h1>
+<span></span>
+<p>Civil engineering is the professional practice of designing and developing
+infrastructure projects. This can be on a huge scale, such as the development of
+nationwide transport systems or water supply networks, or on a smaller scale,
+such as the development of individual roads or buildings.</p>
+</div>
+<div class="banner4">
+<img
+src="https://www.mtu.edu/gradschool/programs/degrees/electrical-engineering/i
+mages/electrical-engineering-banner1600.jpg">
+<div class="text-box text-box4">
+<h1>EEE </h1>
+<span></span>
+<p>
+The scope of EEE is huge. Electrical & Electronics engineers can work in wide
+range of fields such as power generation, electronics, computers & control
+systems, telecommunication and Bio-Medical. A computer engineer specializes in
+the theory of computation and the design of computational systems.</p>
+</div>
+</div>
+</body>
+</html>
